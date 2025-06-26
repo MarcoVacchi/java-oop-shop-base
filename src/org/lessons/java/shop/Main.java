@@ -19,15 +19,5 @@ public class Main {
         System.out.println("Iva: " + climatizzatore.iva);
         System.out.println("Prezzo ivato: " + climatizzatore.getIva());
 
-        // System.out.println(telefono.code);
-        // System.out.println(telefono.description);
-
-        // System.out.println("Prezzo ivato: " + telefono.getIva());
-        // System.out.println("Prezzo base: " + climatizzatore.getPrice());
-        // System.out.println("Prezzo ivato: " + climatizzatore.getIva());
-
-        // System.out.println(climatizzatore.code);
-        // System.out.println(climatizzatore.extendedName());
-
     }
 }
