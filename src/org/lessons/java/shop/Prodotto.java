@@ -12,23 +12,23 @@ public class Prodotto {
 
     public Prodotto(String name, String description, float price, double iva) {
 
-        this.code = new Random().nextInt(10000);
+        this.code = new Random().nextInt(10000) + 10000;
         this.name = name;
         this.description = description;
         this.price = price;
         this.iva = iva;
     };
 
-    public float startPrice() {
+    public float getPrice() {
         return this.price = 220;
     }
 
-    public double priceIva() {
+    public double getIva() {
         return price * (1 + iva / 100);
     }
 
     public String extendedName() {
-        return this.name = this.name + "-" + this.code;
+        return this.name = this.code + "-" + this.name;
     }
 
 };
